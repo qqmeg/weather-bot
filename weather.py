@@ -7,7 +7,7 @@ from os import getenv
 
 
 events = PlausibleEvents(domain=getenv("PLAUSIBLE_DOMAIN"), api=getenv("PLAUSIBLE_API"))
-bot = telebot.TeleBot(getenv("TELEGRAM_API_KEY"))
+bot = telebot.TeleBot(getenv("TELEGRAM_API_KEY").strip())
 users = set()
 
 
