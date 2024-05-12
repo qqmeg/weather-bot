@@ -1,0 +1,2 @@
+pyTelegramBotAPI==4.17.0
+plausible-events==0.1.0
